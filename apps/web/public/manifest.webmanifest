@@ -1,1 +1,21 @@
-{"name":"AS StorageBox","short_name":"StorageBox","lang":"fa","dir":"rtl","start_url":"/","display":"standalone","background_color":"#f7f9ff","theme_color":"#3157d5","description":"فضای ابری خصوصی و اشتراک‌گذاری انتخابی فایل"}
+{
+  "id":"./",
+  "name":"AS StorageBox",
+  "short_name":"StorageBox",
+  "description":"فضای ابری خصوصی، مدیریت فایل و اشتراک‌گذاری انتخابی",
+  "lang":"fa",
+  "dir":"rtl",
+  "start_url":"./",
+  "scope":"./",
+  "display":"standalone",
+  "display_override":["window-controls-overlay","standalone","minimal-ui"],
+  "orientation":"any",
+  "background_color":"#f6f8fc",
+  "theme_color":"#3157d5",
+  "categories":["productivity","utilities"],
+  "shortcuts":[
+    {"name":"فایل‌های من","short_name":"فایل‌ها","url":"./#files"},
+    {"name":"اشتراک‌گذاری شده","short_name":"اشتراک","url":"./#shared"},
+    {"name":"سطل زباله","short_name":"سطل","url":"./#trash"}
+  ]
+}
